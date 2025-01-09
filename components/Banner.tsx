@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-16 mx-auto bg-gradient-to-br from-[#b5d8eb] to-blue-400">
       <div className="col-span-1 flex items-center justify-center">
-        <p className="text-4xl lg:text-6xl text-center text-black">
+        <p className="text-2xl lg:text-4xl text-center text-black">
           Somos una iglesia que se reúne para{" "}
           <span className="font-bold text-white">adorar</span> a Dios,{" "}
           <span className="font-bold text-white">estudiar</span> la Biblia, y{" "}

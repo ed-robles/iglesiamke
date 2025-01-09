@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <div className="flex flex-col items-center justify-center py-16 px-8">
-        <h1 className="text-4xl lg:text-6xl text-center bg-[#00416a] text-white p-4 rounded-lg shadow">
+        <h1 className="text-2xl lg:text-4xl text-center bg-[#00416a] text-white p-4 rounded-lg shadow">
           Bienvenidos A Nuestra Iglesia
         </h1>
         <div className="text-lg lg:text-xl text-center text-black mt-4">
