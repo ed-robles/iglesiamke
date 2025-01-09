@@ -1,34 +1,25 @@
+import Banner from "@/components/Banner";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
-import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
       <Header />
       <HeroSection />
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-8 mx-auto bg-[#b5d8eb]">
-        <div className="col-span-1 flex items-center justify-center">
-          <p className="text-4xl lg:text-6xl text-center text-black">
-            Somos una iglesia que se reúne para{" "}
-            <span className="font-bold text-white">adorar</span> a Dios,{" "}
-            <span className="font-bold text-white">estudiar</span> la Biblia, y{" "}
-            <span className="font-bold text-white">servir</span> a nuestra
-            comunidad.
-          </p>
-        </div>
-        <div className="col-span-1 flex items-center justify-center">
-          <Link href="https://g.co/kgs/Q8qH8i8">
-            <img
-              src="/map.png"
-              alt="map"
-              className="rounded-lg shadow border border-black"
-            />
-          </Link>
+      <div className="flex flex-col items-center justify-center py-16 px-8">
+        <h1 className="text-4xl lg:text-6xl text-center bg-[#00416a] text-white p-4 rounded-lg shadow">
+          Bienvenidos A Nuestra Iglesia
+        </h1>
+        <div className="text-lg lg:text-xl text-center text-black mt-4">
+          <h2 className="font-bold underline my-8 text-2xl">Horario</h2>
+          <p className="mb-2">Domingo: 11:00 AM - 12:00 PM</p>
+          <p className="mb-2">Miercoles: 6:30 PM - 8:00 PM</p>
+          <p className="mb-2">Sabado: 10:00 AM - 12:00 PM</p>
         </div>
       </div>
+      <Banner />
 
       <Footer />
     </div>
