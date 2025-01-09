@@ -8,8 +8,8 @@ const Header = () => {
           className="p-4"
           src="/STACKEDlogo.png"
           alt="PIB logo"
-          width={600}
-          height={200}
+          width={1000}
+          height={300}
         />
       </div>
     </div>
