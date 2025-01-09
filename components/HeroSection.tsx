@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
-    <div className="w-1/3 mx-auto mt-2">
-      <img src={"/coverImage-edit.jpg"} alt="cover" />
+    <div className="md:w-1/2 mx-auto">
+      <img src={"/coverImage-crop.jpeg"} alt="cover" />
     </div>
   );
 };
