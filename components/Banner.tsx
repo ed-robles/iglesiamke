@@ -17,8 +17,11 @@ const Banner = () => {
           <img
             src="/map.png"
             alt="map"
-            className="rounded-lg shadow border border-black scale-75 hover:scale-90 transition-transform duration-300"
+            className="rounded-lg shadow border scale-75 hover:scale-90 transition-transform duration-300"
           />
+          <p className="text-center text-gray-100 mb-2 font-bold">
+            Haz click para mas informacion.
+          </p>
         </Link>
       </div>
     </div>
